@@ -1,0 +1,142 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       192.168.0.2           192.168.0.1           TCP      74     1254 → 23 [SYN] Seq=0 Win=32120 Len=0 MSS=1460 SACK_PERM=1 TSval=1444389 TSecr=0 WS=1
+      2 0.001690       192.168.0.1           192.168.0.2           TCP      74     23 → 1254 [SYN, ACK] Seq=0 Ack=1 Win=17376 Len=0 MSS=1448 WS=1 TSval=346979 TSecr=1444389
+      3 0.001741       192.168.0.2           192.168.0.1           TCP      66     1254 → 23 [ACK] Seq=1 Ack=1 Win=32120 Len=0 TSval=1444389 TSecr=346979
+      4 0.013173       192.168.0.2           192.168.0.1           TELNET   93     Telnet Data ...
+      5 0.150283       192.168.0.1           192.168.0.2           TELNET   69     Telnet Data ...
+      6 0.150351       192.168.0.2           192.168.0.1           TCP      66     1254 → 23 [ACK] Seq=28 Ack=4 Win=32120 Len=0 TSval=1444404 TSecr=346980
+      7 0.150528       192.168.0.2           192.168.0.1           TELNET   69     Telnet Data ...
+      8 0.151908       192.168.0.1           192.168.0.2           TCP      66     23 → 1254 [ACK] Seq=4 Ack=31 Win=17376 Len=0 TSval=346980 TSecr=1444404
+      9 0.153602       192.168.0.1           192.168.0.2           TELNET   91     Telnet Data ...
+     10 0.153816       192.168.0.2           192.168.0.1           TELNET   130    Telnet Data ...
+     11 0.154904       192.168.0.1           192.168.0.2           TCP      66     23 → 1254 [ACK] Seq=29 Ack=95 Win=17312 Len=0 TSval=346980 TSecr=1444405
+     12 0.155418       192.168.0.1           192.168.0.2           TELNET   84     Telnet Data ...
+     13 0.155496       192.168.0.2           192.168.0.1           TELNET   75     Telnet Data ...
+     14 0.156474       192.168.0.1           192.168.0.2           TCP      66     23 → 1254 [ACK] Seq=47 Ack=104 Win=17367 Len=0 TSval=346980 TSecr=1444405
+     15 0.158758       192.168.0.1           192.168.0.2           TELNET   90     Telnet Data ...
+     16 0.159498       192.168.0.2           192.168.0.1           TELNET   151    Telnet Data ...
+     17 0.160654       192.168.0.1           192.168.0.2           TCP      66     23 → 1254 [ACK] Seq=71 Ack=189 Win=17291 Len=0 TSval=346980 TSecr=1444405
+     18 0.181170       192.168.0.1           192.168.0.2           TELNET   69     Telnet Data ...
+     19 0.181250       192.168.0.2           192.168.0.1           TELNET   69     Telnet Data ...
+     20 0.182445       192.168.0.1           192.168.0.2           TCP      66     23 → 1254 [ACK] Seq=74 Ack=192 Win=17373 Len=0 TSval=346980 TSecr=1444407
+     21 0.196092       192.168.0.1           192.168.0.2           TELNET   78     Telnet Data ...
+     22 0.196205       192.168.0.2           192.168.0.1           TELNET   72     Telnet Data ...
+     23 0.197390       192.168.0.1           192.168.0.2           TCP      66     23 → 1254 [ACK] Seq=86 Ack=198 Win=17370 Len=0 TSval=346980 TSecr=1444409
+     24 0.198246       192.168.0.1           192.168.0.2           TELNET   81     Telnet Data ...
+     25 0.213039       192.168.0.2           192.168.0.1           TCP      66     1254 → 23 [ACK] Seq=198 Ack=101 Win=32120 Len=0 TSval=1444411 TSecr=346980
+     26 0.214354       192.168.0.1           192.168.0.2           TELNET   98     Telnet Data ...
+     27 0.233063       192.168.0.2           192.168.0.1           TCP      66     1254 → 23 [ACK] Seq=198 Ack=133 Win=32120 Len=0 TSval=1444413 TSecr=346980
+     28 1.308007       192.168.0.1           192.168.0.2           TELNET   73     Telnet Data ...
+     29 1.323054       192.168.0.2           192.168.0.1           TCP      66     1254 → 23 [ACK] Seq=198 Ack=140 Win=32120 Len=0 TSval=1444522 TSecr=346982
+     30 7.597826       192.168.0.2           192.168.0.1           TELNET   72     Telnet Data ...
+     31 7.599436       192.168.0.1           192.168.0.2           TCP      66     23 → 1254 [ACK] Seq=140 Ack=204 Win=17376 Len=0 TSval=346995 TSecr=1445149
+     32 7.600774       192.168.0.1           192.168.0.2           TELNET   69     Telnet Data ...
+     33 7.613044       192.168.0.2           192.168.0.1           TCP      66     1254 → 23 [ACK] Seq=204 Ack=143 Win=32120 Len=0 TSval=1445151 TSecr=346995
+     34 7.614103       192.168.0.1           192.168.0.2           TELNET   69     Telnet Data ...
+     35 7.633037       192.168.0.2           192.168.0.1           TCP      66     1254 → 23 [ACK] Seq=204 Ack=146 Win=32120 Len=0 TSval=1445153 TSecr=346995
+     36 8.711767       192.168.0.2           192.168.0.1           TELNET   67     Telnet Data ...
+     37 8.713093       192.168.0.2           192.168.0.1           TCP      66     [TCP Keep-Alive] 1254 → 23 [PSH, ACK] Seq=204 Ack=146 Win=32120 Len=0 TSval=1445260 TSecr=346995
+     38 8.714880       192.168.0.1           192.168.0.2           TELNET   67     Telnet Data ...
+     39 8.733049       192.168.0.2           192.168.0.1           TCP      66     1254 → 23 [ACK] Seq=205 Ack=147 Win=32120 Len=0 TSval=1445263 TSecr=346997
+     40 8.934088       192.168.0.2           192.168.0.1           TELNET   67     Telnet Data ...
+     41 8.935307       192.168.0.2           192.168.0.1           TCP      66     [TCP Keep-Alive] 1254 → 23 [PSH, ACK] Seq=205 Ack=147 Win=32120 Len=0 TSval=1445283 TSecr=346997
+     42 8.936602       192.168.0.1           192.168.0.2           TELNET   67     Telnet Data ...
+     43 8.953049       192.168.0.2           192.168.0.1           TCP      66     1254 → 23 [ACK] Seq=206 Ack=148 Win=32120 Len=0 TSval=1445285 TSecr=346997
+     44 9.120822       192.168.0.2           192.168.0.1           TELNET   67     Telnet Data ...
+     45 9.122102       192.168.0.2           192.168.0.1           TCP      66     [TCP Keep-Alive] 1254 → 23 [PSH, ACK] Seq=206 Ack=148 Win=32120 Len=0 TSval=1445301 TSecr=346997
+     46 9.123415       192.168.0.1           192.168.0.2           TELNET   67     Telnet Data ...
+      3 0.085082       192.168.2.113         90.130.70.73          TCP      54     60592 → 21 [ACK] Seq=1 Ack=1 Win=66792 Len=0
+      4 0.172673       90.130.70.73          192.168.2.113         FTP      74     Response: 220 (vsFTPd 2.3.5)
+      5 0.172981       192.168.2.113         90.130.70.73          FTP      64     Request: AUTH TLS
+      6 0.256851       90.130.70.73          192.168.2.113         TCP      60     21 → 60592 [ACK] Seq=21 Ack=11 Win=14720 Len=0
+      7 0.257394       90.130.70.73          192.168.2.113         FTP      92     Response: 530 Please login with USER and PASS.
+      8 0.257594       192.168.2.113         90.130.70.73          FTP      64     Request: AUTH SSL
+      9 0.341770       90.130.70.73          192.168.2.113         FTP      92     Response: 530 Please login with USER and PASS.
+     10 0.343402       192.168.2.113         90.130.70.73          FTP      70     Request: USER anonymous
+     11 0.427730       90.130.70.73          192.168.2.113         FTP      88     Response: 331 Please specify the password.
+     12 0.427963       192.168.2.113         90.130.70.73          FTP      82     Request: PASS anonymous@example.com
+     13 0.549512       90.130.70.73          192.168.2.113         TCP      60     21 → 60592 [ACK] Seq=131 Ack=65 Win=14720 Len=0
+     14 0.667184       90.130.70.73          192.168.2.113         FTP      77     Response: 230 Login successful.
+     15 0.667426       192.168.2.113         90.130.70.73          FTP      60     Request: SYST
+     16 0.751400       90.130.70.73          192.168.2.113         TCP      60     21 → 60592 [ACK] Seq=154 Ack=71 Win=14720 Len=0
+     17 0.751935       90.130.70.73          192.168.2.113         FTP      73     Response: 215 UNIX Type: L8
+     18 0.752130       192.168.2.113         90.130.70.73          FTP      60     Request: FEAT
+     19 0.838234       90.130.70.73          192.168.2.113         FTP      69     Response: 211-Features:
+     20 0.838793       90.130.70.73          192.168.2.113         FTP      61     Response:  EPRT
+     21 0.838855       192.168.2.113         90.130.70.73          TCP      54     60592 → 21 [ACK] Seq=77 Ack=195 Win=66596 Len=0
+     22 0.839853       90.130.70.73          192.168.2.113         FTP      61     Response:  EPSV
+     23 0.840427       90.130.70.73          192.168.2.113         FTP      61     Response:  MDTM
+     24 0.840473       192.168.2.113         90.130.70.73          TCP      54     60592 → 21 [ACK] Seq=77 Ack=209 Win=66584 Len=0
+     25 0.841393       90.130.70.73          192.168.2.113         FTP      61     Response:  PASV
+     26 0.841953       90.130.70.73          192.168.2.113         FTP      68     Response:  REST STREAM
+     27 0.842004       192.168.2.113         90.130.70.73          TCP      54     60592 → 21 [ACK] Seq=77 Ack=230 Win=66560 Len=0
+     28 0.842925       90.130.70.73          192.168.2.113         FTP      61     Response:  SIZE
+     29 0.843511       90.130.70.73          192.168.2.113         FTP      61     Response:  TVFS
+     30 0.843555       192.168.2.113         90.130.70.73          TCP      54     60592 → 21 [ACK] Seq=77 Ack=244 Win=66548 Len=0
+     31 0.844474       90.130.70.73          192.168.2.113         FTP      61     Response:  UTF8
+     32 0.845043       90.130.70.73          192.168.2.113         FTP      63     Response: 211 End
+     33 0.845087       192.168.2.113         90.130.70.73          TCP      54     60592 → 21 [ACK] Seq=77 Ack=260 Win=66532 Len=0
+     34 0.845170       192.168.2.113         90.130.70.73          FTP      68     Request: OPTS UTF8 ON
+     35 0.934511       90.130.70.73          192.168.2.113         FTP      80     Response: 200 Always in UTF8 mode.
+     36 0.936840       192.168.2.113         90.130.70.73          FTP      61     Request: CWD /
+     37 1.020939       90.130.70.73          192.168.2.113         FTP      91     Response: 250 Directory successfully changed.
+     38 1.021158       192.168.2.113         90.130.70.73          FTP      59     Request: PWD
+      8 0.126639373    127.0.0.1             127.0.0.1             POP      98     S: +OK Begin TLS negotiation now.
+      4 0.084187035    127.0.0.1             127.0.0.1             POP      95     S: +OK Dovecot (Ubuntu) ready.
+      6 0.084319002    127.0.0.1             127.0.0.1             POP      72     C: STLS
+      5 0.383968       10.10.1.4             74.53.140.153         TCP      54     1470 → 25 [ACK] Seq=1 Ack=1 Win=65535 Len=0
+      6 0.727603       74.53.140.153         10.10.1.4             SMTP     235    S: 220-xc90.websitewelcome.com ESMTP Exim 4.69 #1 Mon, 05 Oct 2009 01:05:54 -0500  | 220-We do not authorize the use of this system to transport unsolicited,  | 220 and/or bulk e-mail.
+      7 0.732749       10.10.1.4             74.53.140.153         SMTP     63     C: EHLO GP
+      8 1.073326       74.53.140.153         10.10.1.4             TCP      60     25 → 1470 [ACK] Seq=182 Ack=10 Win=5840 Len=0
+      9 1.074123       74.53.140.153         10.10.1.4             SMTP     191    S: 250-xc90.websitewelcome.com Hello GP [122.162.143.157] | 250-SIZE 52428800 | 250-PIPELINING | 250-AUTH PLAIN LOGIN | 250-STARTTLS | 250 HELP
+     10 1.076669       10.10.1.4             74.53.140.153         SMTP     66     C: AUTH LOGIN
+     11 1.419021       74.53.140.153         10.10.1.4             SMTP     72     S: 334 VXNlcm5hbWU6
+     12 1.419595       10.10.1.4             74.53.140.153         SMTP     84     C: User: Z3VycGFydGFwQHBhdHJpb3RzLmlu
+     13 1.761484       74.53.140.153         10.10.1.4             SMTP     72     S: 334 UGFzc3dvcmQ6
+     14 1.762058       10.10.1.4             74.53.140.153         SMTP     72     C: Pass: cHVuamFiQDEyMw==
+     15 2.121738       74.53.140.153         10.10.1.4             SMTP     84     S: 235 Authentication succeeded
+     16 2.122354       10.10.1.4             74.53.140.153         SMTP     90     C: MAIL FROM: <gurpartap@patriots.in>
+     17 2.464705       74.53.140.153         10.10.1.4             SMTP     62     S: 250 OK
+     18 2.465190       10.10.1.4             74.53.140.153         SMTP     93     C: RCPT TO: <raj_deol2002in@yahoo.co.in>
+     19 2.827648       74.53.140.153         10.10.1.4             SMTP     68     S: 250 Accepted
+     20 2.828143       10.10.1.4             74.53.140.153         SMTP     60     C: DATA
+     21 3.169619       74.53.140.153         10.10.1.4             SMTP     110    S: 354 Enter message, ending with "." on a line by itself
+     22 3.200683       10.10.1.4             74.53.140.153         SMTP     1514   C: DATA fragment, 1460 bytes
+     23 3.200726       10.10.1.4             74.53.140.153         SMTP     1514   C: DATA fragment, 1460 bytes
+     24 3.200744       10.10.1.4             74.53.140.153         SMTP     1514   C: DATA fragment, 1460 bytes
+     25 3.200763       10.10.1.4             74.53.140.153         SMTP     1514   [TCP Window Full] C: DATA fragment, 1460 bytes
+     26 3.203055       192.168.1.1           10.10.1.4             ICMP     590    Destination unreachable (Fragmentation needed)
+     18 2.984291       145.254.160.237       216.239.59.99         HTTP     775    GET /pagead/ads?client=ca-pub-2309191948673629&random=1084443430285&lmt=1082467020&format=468x60_as&output=html&url=http%3A%2F%2Fwww.ethereal.com%2Fdownload.html&color_bg=FFFFFF&color_text=333333&color_link=000000&color_url=666633&color_border=666633 HTTP/1.1
+     27 3.955688       216.239.59.99         145.254.160.237       HTTP     214    HTTP/1.1 200 OK  (text/html)
+     38 4.846969       65.208.228.223        145.254.160.237       HTTP/XML 478    HTTP/1.1 200 OK 
+      4 0.911310       145.254.160.237       65.208.228.223        HTTP     533    GET /download.html HTTP/1.1
+      5 0.235960       192.168.1.2           192.168.1.1           DNS      84     Standard query 0x311f PTR 2.1.168.192.in-addr.arpa
+      6 0.236116       192.168.1.2           192.168.1.1           DNS      88     Standard query 0x3120 PTR 114.214.204.212.in-addr.arpa
+      7 0.270252       192.168.1.1           192.168.1.2           DNS      84     Standard query response 0x311f PTR 2.1.168.192.in-addr.arpa
+      8 0.294105       192.168.1.1           192.168.1.2           DNS      123    Standard query response 0x3120 PTR 114.214.204.212.in-addr.arpa PTR sterling.freenode.net
+      9 0.985963       192.168.1.2           192.168.1.1           DNS      81     Standard query 0x3121 A sterling.freenode.net
+     10 0.988328       192.168.1.1           192.168.1.2           DNS      97     Standard query response 0x3121 A sterling.freenode.net A 212.204.214.114
+     11 1.735567       192.168.1.2           192.168.1.1           DNS      84     Standard query 0x3122 PTR 1.1.168.192.in-addr.arpa
+     12 1.737982       192.168.1.1           192.168.1.2           DNS      110    Standard query response 0x3122 PTR 1.1.168.192.in-addr.arpa PTR voyager.home
+     13 2.485441       192.168.1.2           192.168.1.1           DNS      72     Standard query 0x3123 A voyager.home
+     14 2.487702       192.168.1.1           192.168.1.2           DNS      88     Standard query response 0x3123 A voyager.home A 192.168.1.1
+     15 3.343603       71.10.179.129         192.168.1.2           TCP      93     14232 → 4026 [PSH, ACK] Seq=1 Ack=1 Win=63807 Len=27 TSval=1887947 TSecr=14211796
+     16 3.343657       192.168.1.2           71.10.179.129         TCP      66     4026 → 14232 [ACK] Seq=1 Ack=28 Win=742 Len=0 TSval=14219096 TSecr=1887947
+     17 3.542328       192.168.1.2           71.10.179.129         TCP      90     4026 → 14232 [PSH, ACK] Seq=1 Ack=28 Win=768 Len=24 TSval=14219295 TSecr=1887947
+     18 3.563622       212.204.214.114       192.168.1.2           IRC      157    Response (PRIVMSG)
+     19 3.563675       192.168.1.2           212.204.214.114       TCP      66     2848 → 6667 [ACK] Seq=31 Ack=138 Win=8011 Len=0 TSval=14219316 TSecr=2196036907
+     20 3.835582       71.10.179.129         192.168.1.2           TCP      66     14232 → 4026 [ACK] Seq=28 Ack=25 Win=63783 Len=0 TSval=1887953 TSecr=14219295
+     21 3.985200       192.168.1.2           192.168.1.1           DNS      86     Standard query 0x3124 PTR 129.179.10.71.in-addr.arpa
+     22 4.246622       192.168.1.1           192.168.1.2           DNS      138    Standard query response 0x3124 PTR 129.179.10.71.in-addr.arpa PTR 71-10-179-129.dhcp.stls.mo.charter.com
+     23 4.555073       172.200.160.242       192.168.1.2           TCP      108    11352 → 4984 [PSH, ACK] Seq=1 Ack=1 Win=65127 Len=42 TSval=1744627 TSecr=14208134
+     24 4.555122       192.168.1.2           172.200.160.242       TCP      66     4984 → 11352 [ACK] Seq=1 Ack=43 Win=747 Len=0 TSval=14220308 TSecr=1744627
+     25 4.735117       192.168.1.2           192.168.1.1           DNS      88     Standard query 0x3125 PTR 242.160.200.172.in-addr.arpa
+     26 4.735183       192.168.1.2           192.168.1.1           DNS      98     Standard query 0x3126 A 71-10-179-129.dhcp.stls.mo.charter.com
+     27 4.743793       192.168.1.1           192.168.1.2           DNS      114    Standard query response 0x3126 A 71-10-179-129.dhcp.stls.mo.charter.com A 71.10.179.129
+     28 4.844321       192.168.1.1           192.168.1.2           DNS      122    Standard query response 0x3125 PTR 242.160.200.172.in-addr.arpa PTR ACC8A0F2.ipt.aol.com
+     29 5.485025       192.168.1.2           192.168.1.1           DNS      80     Standard query 0x3127 A ACC8A0F2.ipt.aol.com
+     30 5.487428       192.168.1.1           192.168.1.2           DNS      96     Standard query response 0x3127 A ACC8A0F2.ipt.aol.com A 172.200.160.242
+      1 0.000000       0.0.0.0               255.255.255.255       DHCP     314    DHCP Discover - Transaction ID 0x3d1d
+      2 0.000295       192.168.0.1           192.168.0.10          DHCP     342    DHCP Offer    - Transaction ID 0x3d1d
+      3 0.070031       0.0.0.0               255.255.255.255       DHCP     314    DHCP Request  - Transaction ID 0x3d1e
+      4 0.070345       192.168.0.1           192.168.0.10          DHCP     342    DHCP ACK      - Transaction ID 0x3d1e
